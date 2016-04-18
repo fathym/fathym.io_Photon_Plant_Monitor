@@ -24,7 +24,7 @@ Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github
     - Connect GND on the Soil Sensor to GND on the Photon
     - Connect VCC on the Soil Sensor to A0 on the Photon 
 2. **Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github.com/fathym/fathym.io_Photon_Plant_Monitor/blob/master/fathym.io.photon-0.0.1-plantMonitor.zip) zip folder from this repo and unzip**
-2. **Open the Particle Dev Desktop app and add the fathym.io.photon-0.0.1-weathershield folder**
+2. **Open the Particle Dev Desktop app and add the fathym.io.photon-0.0.1-plantMonitor folder**
 ![Particle Dev](https://40.media.tumblr.com/85a6b84ac6a20005769c38cf79ea9c55/tumblr_o58dv5IR7S1qcz8h1o1_1280.jpg "Particle Dev")
   - Download the [Particle Dev Environment](https://www.particle.io/dev) if you haven't already
   - Inside Particle Dev: File -> Add Project Folder -> Find the fathym.io folder
