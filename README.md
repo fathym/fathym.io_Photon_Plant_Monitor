@@ -1,7 +1,7 @@
 # fathym.io_Photon_Plant_Monitor
 Monitor your plants' health using Fathym, Particle Photon and sensors to measure soil moisture, temperature and humidity.
 
-Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github.com/fathym/fathym.io_Photon_Plant_Monitor/blob/master/fathym.io.photon-0.0.1-plantMonitor.zip) to get your Sparkfun Photon Weather Shield up and running in Fathym.
+Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github.com/fathym/fathym.io_Photon_Plant_Monitor/blob/master/fathym.io.photon-0.0.1-plantMonitor.zip) to get your Photon Plant Monitor up and running in Fathym.
 ## About 
 [![Fathym logo](http://community.fathym.com/Files/Storage/ef3e1f7f-3303-4296-9660-044c33e60cbd "Fathym Logo")](http://fathym.com) [![Particle logo](http://blog.particle.io/images/particle-horizontal-dark.png "Particle logo")](http://particle.io)
 
@@ -20,7 +20,7 @@ Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github
       - Connect a wire from pin 1 on the sensor to GND on the Photon (ground)
       - Connect another wire from pin 3 on the sensor to D3 on the Photon (data)
       - Connect a final wire from pin 4 on the sensor to 3v3 on the Photon (power)
-  - Add a [Soil Moisture Sensor](http://community.fathym.com/Files/Storage/c9653205-13f1-47fb-ba60-3f9949a31a4c) to your breadboard
+  - Add a [Soil Moisture Sensor](https://www.sparkfun.com/products/13322) to your breadboard
   ![Soil Sensor](http://community.fathym.com/Files/Storage/09686fb0-1bb9-4b16-add7-96fcc5811e00)
     - Connect SIG on the Soil Sensor to A5 on the Photon
     - Connect GND on the Soil Sensor to GND on the Photon
@@ -36,7 +36,7 @@ Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github
   - The .ino should get random test data flowing to Fathym exactly as is, so we'll test everything before messing with the code
 6. **Create a new Photon Part in your Fathym Home Space**
   ![Fathym Home](https://41.media.tumblr.com/101c284e6b4c640957cbaa86e444fe32/tumblr_o58dv5IR7S1qcz8h1o2_1280.jpg "Fathym Home")
-  - Create an  account at [community.fathym.com](http.//community.fathym.com) if you haven't already
+  - Create an  account at [community.fathym.com](http://community.fathym.com) if you haven't already
   - From your Home Space, click the plus "+" button to get to the catalog of addable parts
   - Choose the Particle Photon part
   - Add your Photon deviceID, which you can find on your [Particle Dashboard](https://dashboard.particle.io/user/devices)
@@ -93,5 +93,16 @@ Download the [fathym.io.photon-0.0.1-plantMonitor library folder](https://github
 3. Change the selected tab in the upper right from "Create New" to "Add Existing
 4. Search the "Existing Catalog" for your Particle Photon Device and Add!
 
-
+## Additional Internet of Things Projects
+**1. Photon Weather Station**
+  - Create a Weather Station using a [Sparkfun Photon Weather Shield](https://www.sparkfun.com/products/13630), a [Soil Moisture Sensor](https://www.sparkfun.com/products/13322) (optional) and Fathym. 
+  Visit the [fathym.io_Sparkfun_Photon_WeatherShield Repository](https://github.com/fathym/fathym.io_Sparkfun_Photon_WeatherShield) for more info.
+  
+**2. Photon Door Sensor**
+  - Monitor whether your door is opened or closed and get notifications of any changes using a [Magnetic Door Switch Sensor](https://www.sparkfun.com/products/13247).
+  Visit the [fathym.io_Photon_DoorSensor Repository](https://github.com/fathym/fathym.io_Photon_DoorSensor) for more info.
+  
+**3. Photon Battery Power**
+  - Power your Photon with a [Lithium Ion Battery](https://www.sparkfun.com/products/8483) using the [SparkFun Battery Shield](https://www.sparkfun.com/products/13626). Monitor the battery voltage and charge via Fathym.
+  [fathym.io_Photon_BatteryShield Repository](https://github.com/fathym/fathym.io_Particle_BatteryShield)
   
